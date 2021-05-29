@@ -7,6 +7,7 @@ const AddNewTodo = ({ addTodo }) => {
     event.preventDefault();
     addTodo(todos);
   };
+  
   return (
     <div>
       <form onSubmit={handleSubmit}>
